@@ -1,0 +1,3 @@
+-r requirements.txt
+pytest>=8
+h5py>=3.10   # only for training/prepare_nyu.py

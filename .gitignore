@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
+# secrets — never commit
+.env
+.streamlit/secrets.toml
+# large datasets (download separately)
+data/nyu/
+data/*.mat
+data/kitti/
+data/middlebury/
+# keep models/checkpoints/depthnet.pt (6 MB, needed by the deployed app)

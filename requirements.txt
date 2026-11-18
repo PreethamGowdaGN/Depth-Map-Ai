@@ -1,0 +1,13 @@
+# CPU-only PyTorch wheels (much smaller; works on Streamlit Cloud / HF Spaces / laptops).
+# If you have an NVIDIA GPU locally, install torch from pytorch.org instead.
+--extra-index-url https://download.pytorch.org/whl/cpu
+streamlit>=1.50
+numpy>=1.26
+opencv-python-headless>=4.9
+scipy>=1.11
+scikit-image>=0.22
+plotly>=5.20
+pandas>=2.1
+torch>=2.2
+tifffile>=2023.7
+psutil>=5.9
