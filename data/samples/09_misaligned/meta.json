@@ -1,0 +1,16 @@
+{
+ "name": "Misaligned RGB / depth",
+ "seed": 200081,
+ "degradation": {
+  "noise_std": 0.005,
+  "hole_fraction": 0.0,
+  "sparsity": 1.0
+ },
+ "description": "RGB shifted 6 px relative to depth (calibration error).",
+ "rgb_shift_px": 6,
+ "size": [
+  384,
+  512
+ ],
+ "units": "depth_gt.png: uint16 millimetres"
+}

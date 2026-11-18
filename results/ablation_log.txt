@@ -1,0 +1,21 @@
+Full hybrid (default) 0.0967 0.2780
+− Residual correction (= DepthNet only) 0.1007 0.2933
+− Deep learning (JBU base + residual) 0.2402 0.6964
+− RGB guidance 0.2411 0.7066
+− Hole filling (holes left empty) 0.0917 0.2698
++ Noise reduction 0.5 0.0959 0.2775
++ RGB-JBU fusion, structure-edge gated 0.2166 0.6431
++ RGB-JBU fusion, ungated (every RGB edge) 0.2166 0.6431
++ Flying-pixel snapping 0.0994 0.2799
+saved /home/claude/DEPTHMAP_AI/results/ablation.json
+| Variant | RMSE | MAE | PSNR | SSIM | Edge F1 | Boundary RMSE | Texture-copy idx | Coverage | Latency (s) |
+|---|---|---|---|---|---|---|---|---|---|
+| Full hybrid (default) | 0.0967 | 0.0276 | 34.82 | 0.9830 | 0.9541 | 0.2780 | 0.0052 | 1.0000 | 0.5832 |
+| − Residual correction (= DepthNet only) | 0.1007 | 0.0272 | 34.50 | 0.9835 | 0.9491 | 0.2933 | 0.0054 | 1.0000 | 0.1107 |
+| − Deep learning (JBU base + residual) | 0.2402 | 0.0477 | 27.35 | 0.9625 | 0.9421 | 0.6964 | 0.0056 | 1.0000 | 0.1562 |
+| − RGB guidance | 0.2411 | 0.0480 | 26.98 | 0.9598 | 0.9251 | 0.7066 | 0.0046 | 1.0000 | 0.2115 |
+| − Hole filling (holes left empty) | 0.0917 | 0.0241 | 35.27 | 0.9873 | 0.9618 | 0.2698 | 0.0043 | 0.8954 | 0.1818 |
+| + Noise reduction 0.5 | 0.0959 | 0.0257 | 34.92 | 0.9846 | 0.9537 | 0.2775 | 0.0052 | 1.0000 | 0.1757 |
+| + RGB-JBU fusion, structure-edge gated | 0.2166 | 0.0520 | 28.24 | 0.9589 | 0.9264 | 0.6431 | 0.0059 | 1.0000 | 0.2365 |
+| + RGB-JBU fusion, ungated (every RGB edge) | 0.2166 | 0.0519 | 28.24 | 0.9589 | 0.9259 | 0.6431 | 0.0059 | 1.0000 | 0.2350 |
+| + Flying-pixel snapping | 0.0994 | 0.0285 | 34.83 | 0.9814 | 0.8919 | 0.2799 | 0.0064 | 1.0000 | 0.3144 |

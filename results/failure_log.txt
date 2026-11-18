@@ -1,0 +1,33 @@
+Large missing regions            bicubic  RMSE 0.2948 BRMSE 0.7022 EdgeF1 0.770
+Large missing regions            jbu      RMSE 0.2567 BRMSE 0.6104 EdgeF1 0.822
+Large missing regions            deep     RMSE 0.1554 BRMSE 0.3226 EdgeF1 0.942
+Large missing regions            hybrid   RMSE 0.1545 BRMSE 0.3199 EdgeF1 0.930
+Strong depth boundaries          bicubic  RMSE 0.2505 BRMSE 0.6144 EdgeF1 0.870
+Strong depth boundaries          jbu      RMSE 0.2070 BRMSE 0.5081 EdgeF1 0.943
+Strong depth boundaries          deep     RMSE 0.1014 BRMSE 0.2505 EdgeF1 0.959
+Strong depth boundaries          hybrid   RMSE 0.1029 BRMSE 0.2545 EdgeF1 0.965
+Heavy measurement noise          bicubic  RMSE 0.2600 BRMSE 0.5782 EdgeF1 0.736
+Heavy measurement noise          jbu      RMSE 0.1707 BRMSE 0.4545 EdgeF1 0.936
+Heavy measurement noise          deep     RMSE 0.1046 BRMSE 0.2351 EdgeF1 0.958
+Heavy measurement noise          hybrid   RMSE 0.1283 BRMSE 0.2395 EdgeF1 0.884
+Thin structures                  bicubic  RMSE 0.2707 BRMSE 0.6682 EdgeF1 0.934
+Thin structures                  jbu      RMSE 0.2273 BRMSE 0.5547 EdgeF1 0.975
+Thin structures                  deep     RMSE 0.0959 BRMSE 0.2391 EdgeF1 0.990
+Thin structures                  hybrid   RMSE 0.0905 BRMSE 0.2259 EdgeF1 0.992
+Reflective surfaces              bicubic  RMSE 0.2481 BRMSE 0.6688 EdgeF1 0.865
+Reflective surfaces              jbu      RMSE 0.2076 BRMSE 0.5565 EdgeF1 0.906
+Reflective surfaces              deep     RMSE 0.1576 BRMSE 0.2509 EdgeF1 0.922
+Reflective surfaces              hybrid   RMSE 0.1355 BRMSE 0.2428 EdgeF1 0.905
+Texture-heavy surfaces           bicubic  RMSE 0.1619 BRMSE 0.5168 EdgeF1 0.885
+Texture-heavy surfaces           jbu      RMSE 0.1223 BRMSE 0.3904 EdgeF1 0.931
+Texture-heavy surfaces           deep     RMSE 0.0709 BRMSE 0.2281 EdgeF1 0.980
+Texture-heavy surfaces           hybrid   RMSE 0.0705 BRMSE 0.2259 EdgeF1 0.981
+Misaligned RGB/depth (6 px)      bicubic  RMSE 0.1938 BRMSE 0.5520 EdgeF1 0.893
+Misaligned RGB/depth (6 px)      jbu      RMSE 0.2320 BRMSE 0.6618 EdgeF1 0.799
+Misaligned RGB/depth (6 px)      deep     RMSE 0.2793 BRMSE 0.8014 EdgeF1 0.843
+Misaligned RGB/depth (6 px)      hybrid   RMSE 0.2151 BRMSE 0.6160 EdgeF1 0.929
+Very sparse (5 %)                bicubic  RMSE 0.4219 BRMSE 1.0290 EdgeF1 0.642
+Very sparse (5 %)                jbu      RMSE 0.3823 BRMSE 0.9379 EdgeF1 0.686
+Very sparse (5 %)                deep     RMSE 0.2203 BRMSE 0.4414 EdgeF1 0.893
+Very sparse (5 %)                hybrid   RMSE 0.2103 BRMSE 0.4350 EdgeF1 0.816
+saved /home/claude/DEPTHMAP_AI/results/failure_analysis.json

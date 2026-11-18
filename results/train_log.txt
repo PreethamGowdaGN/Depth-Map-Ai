@@ -1,0 +1,16 @@
+device=cpu threads=2
+DepthNet parameters: 1,518,611
+iter   200  loss 0.1485  val RMSE model 0.0925  bicubic 0.0926  (1.7 min)
+iter   400  loss 0.1381  val RMSE model 0.0897  bicubic 0.0926  (3.8 min)
+iter   600  loss 0.1276  val RMSE model 0.0722  bicubic 0.0926  (5.9 min)
+iter   800  loss 0.1067  val RMSE model 0.0612  bicubic 0.0926  (7.6 min)
+iter  1000  loss 0.0957  val RMSE model 0.0579  bicubic 0.0926  (9.4 min)
+iter  1200  loss 0.0883  val RMSE model 0.0518  bicubic 0.0926  (11.1 min)
+iter  1400  loss 0.0834  val RMSE model 0.0514  bicubic 0.0926  (13.0 min)
+iter  1600  loss 0.0784  val RMSE model 0.0485  bicubic 0.0926  (14.8 min)
+iter  1800  loss 0.0768  val RMSE model 0.0471  bicubic 0.0926  (16.6 min)
+iter  2000  loss 0.0747  val RMSE model 0.0456  bicubic 0.0926  (18.3 min)
+iter  2200  loss 0.0741  val RMSE model 0.0461  bicubic 0.0926  (20.1 min)
+iter  2400  loss 0.0724  val RMSE model 0.0456  bicubic 0.0926  (21.9 min)
+iter  2600  loss 0.0718  val RMSE model 0.0455  bicubic 0.0926  (23.7 min)
+done. best val RMSE (normalised) 0.0455. checkpoint: /home/claude/DEPTHMAP_AI/models/checkpoints/depthnet.pt

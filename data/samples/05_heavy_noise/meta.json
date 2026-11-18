@@ -1,0 +1,16 @@
+{
+ "name": "Heavy measurement noise",
+ "seed": 200041,
+ "degradation": {
+  "noise_std": 0.04,
+  "hole_fraction": 0.05,
+  "sparsity": 1.0
+ },
+ "description": "4 % depth-proportional Gaussian noise (\u22484 cm at 1 m).",
+ "rgb_shift_px": 0,
+ "size": [
+  384,
+  512
+ ],
+ "units": "depth_gt.png: uint16 millimetres"
+}

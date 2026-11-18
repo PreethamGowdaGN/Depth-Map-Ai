@@ -1,0 +1,16 @@
+{
+ "name": "Indoor scene (standard)",
+ "seed": 200003,
+ "degradation": {
+  "noise_std": 0.01,
+  "hole_fraction": 0.08,
+  "sparsity": 1.0
+ },
+ "description": "Typical cluttered scene: slanted planes, curved objects, moderate noise and holes.",
+ "rgb_shift_px": 0,
+ "size": [
+  384,
+  512
+ ],
+ "units": "depth_gt.png: uint16 millimetres"
+}
